@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 252, 252);
+}
+
+.mainclass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    margin:10px;
+    border-radius: 15px;
+    background-color: rgb(156, 5, 5);
+    color: white;
+}
+
+.issueclass {
+    border: 2px solid red;
+    width: 70%;
+    margin: 10px auto;
+    background-color: rgba(192, 148, 243, 0.514);
+}
+
+#issueRequests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}

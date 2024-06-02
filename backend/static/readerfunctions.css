@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 248, 248);
+}
+
+.parentdiv{
+    margin:250px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.maincontent{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid green;
+    width: 30%;
+    margin:0 auto;
+    box-shadow: -4px 4px 5px 10px red;
+}
+.searchbook,.raisebookrequest,.books{
+    border-bottom:2px solid green;
+    width: 80%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 20px;
+}
+.logout{
+    width: 80%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 20px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+}
+button:hover{
+    cursor: pointer;
+    opacity: .8;
+}

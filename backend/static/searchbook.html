@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK SEARCH</title>
+    <link rel="stylesheet" href="/static/searchbook.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h1>Book Search</h1>
+        <div class="form-Container">
+            <div class="search-form ">
+                <label for="title">Title</label><br>
+                <input type="text" id="title" placeholder="Enter Book Title" required><br>
+                <label for="authors">Author</label><br>
+                <input type="text" id="authors" placeholder="Enter Author Name" required><br>
+                <label for="title">Publisher</label><br>
+                <input type="text" id="publisher" placeholder="Enter Publisher Name" required><br>
+                <button onclick="searchBooks()">Search</button>
+                <a href="./readerfunctions.html"><button class="buttonclass">Previous</button></a>
+            </div>
+
+        </div>
+    </div>
+    <div id="searchResults"></div>
+    </div>
+    <script src="/static/searchbook.js"></script>
+</body>
+
+</html>

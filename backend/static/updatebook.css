@@ -1,0 +1,79 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body {
+    font: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(199, 247, 231);
+}
+
+.container {
+    margin: 130px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.updateBook {
+    width: 30%;
+    margin: 0 auto;
+    padding:10px;
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    width:100%;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color:rgb(167, 9, 9) ;
+}
+
+button:hover{
+    background-color: rgb(163, 241, 241);
+    cursor: pointer;
+}
+.previousbuttonlink{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:5px auto;
+    width: 10%;
+    background-color: black;
+    color: whitesmoke;
+}
+.previousbuttonlink:hover{
+    color: red;
+}
+#message{
+    display: flex;
+    justify-content: center;
+    color:green;
+    background-color: rgb(245, 203, 203);
+    width: 40%;
+    margin:5px auto;
+
+}
+#error{
+    margin:10px auto;
+    color:red;
+}

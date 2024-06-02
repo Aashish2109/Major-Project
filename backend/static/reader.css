@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(6, 107, 107);
+}
+
+.loginimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+
+.main-container {
+  width: 30%;
+  margin: 150px 7px;
+  border-radius: 5px;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 20px 10px rgba(121, 1, 1, 0.884);
+  background-color: gray;
+}
+
+.imageclass {
+  height: 400px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#login-container,
+#otp-container {
+  margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+button {
+  background-color: rgb(145, 81, 81);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+.loginimage .main-container #login-container .createaccount {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#error {
+  color: red;
+  margin-top: 10px;
+}

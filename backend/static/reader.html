@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READER</title>
+    <link rel="stylesheet" href="reader.css">
+</head>
+
+<body>
+    <div class="loginimage">
+        <div class="main-container">
+            <h1>Welcome to Library Management System</h1>
+            <h3>Hi Reader, Please Login To Continue</h3>
+            <div id="login-container">
+                <form id="login-Form">
+                    <label for="email">Enter Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <button type="submit">Login</button>
+                </form>
+                <div class="createaccount">
+                    <a href="index.html"><button>Previous</button></a>
+                    <a href="readercreateaccount.html"><button>Create Account</button></a>
+                </div>
+            </div>
+            <div id="otp-Container" style="display: none;">
+                <h2>Enter OTP</h2>
+                <form id="otp-Form">
+                    <label for="otp">OTP:</label>
+                    <input type="text" id="otp" name="otp" required>
+                    <br>
+                    <button type="submit">Submit OTP</button>
+                </form>
+            </div>
+        </div>
+        <div>
+            <img src="Login.jpg" alt="login" class="imageclass"/>
+        </div>
+
+        <script src="reader.js"></script>
+    </div>
+</body>
+
+</html>
