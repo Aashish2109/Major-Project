@@ -1,0 +1,76 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body {
+    font: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(199, 247, 231);
+}
+.container {
+    margin: 100px auto;
+}
+.updateBookImage{
+   border-radius: 20px;
+}
+.updateBook {
+    width: 30%;
+    margin: 0 auto;
+    padding:20px;
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.updateBookdiv{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:rgba(88, 88, 228, 0.26);
+border-radius: 20px;
+padding: 15px;
+width: 60%;
+margin: 0 auto;
+}
+.inputUpdate{
+    width: 95%;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px auto;
+}
+.updateBook label{
+    margin: 5px auto;
+}
+.updatebookButton{
+    width:100%;
+    padding: 8px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color:rgb(167, 9, 9) ;
+}
+
+.updatebookButton:hover{
+    background-color: rgb(73, 116, 116);
+    color: black;
+  
+    cursor: pointer;
+}
+.previousbuttonlink{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:5px auto;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+}
+.previousbuttonlink:hover{
+    color: red;
+    background-color: rgb(83, 8, 8);
+}

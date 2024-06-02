@@ -1,0 +1,58 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(0, 84, 240) ;
+}
+
+.mainContent{
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px rgb(58, 1, 53);
+    background-color: rgb(126, 144, 160);
+    border-radius: 5px;
+}
+.mainContent .addbookInput{
+    width: 80%;
+    padding: 6px;
+    border-radius: 5px;
+}
+.mainContent label{
+    margin:5px auto;
+}
+.addbookdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin:100px auto;
+    background-color: #eec6c6;
+    border-radius: 20px;
+    padding: 10px;
+}
+.mainContent label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    color: #fff;
+    border: none;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+.links{
+   width: 100%;
+}

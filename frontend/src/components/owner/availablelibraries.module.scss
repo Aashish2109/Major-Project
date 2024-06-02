@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 211, 197);
+  }
+.availableTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width:20%;
+    border: 1px solid red;
+    background-color: rgb(196, 221, 213);
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.availableTableclass{
+ border: 2px solid red;
+ background-color: beige;
+ padding: 10px;
+ 
+}
+.availableTabledata{
+ text-align: center;
+ border:1px solid red;
+ background-color: bisque;
+ padding: 5px;
+}
+.previousbuttonavailable{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 5%;
+}
+.previousbuttonavailable:hover{
+  cursor: pointer;
+  background-color: rgb(119, 145, 81);
+}

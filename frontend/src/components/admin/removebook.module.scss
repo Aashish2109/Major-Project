@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+  }
+  .container{
+  margin:200px auto
+  }
+  h1{
+    text-align: center;
+  }
+  .mainclass{
+    width: 40%;
+    box-shadow: 0 0 5px 5px rgb(65, 15, 15);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto 0 -20px;
+    background-color: gray;
+  }
+  .mainclass .inputFieldRemove{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .removebookdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px 5px rgb(161, 41, 41);
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  .removeBookButton {
+    background-color: #02ff0d70;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    width:80%;
+    margin: 10px 30px;
+  }
+   
+  .removeBookButton:hover {
+    background-color: #121d12;
+  }
+  .previousbutton{
+    width: 100%;
+    margin: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020f03;
+  }

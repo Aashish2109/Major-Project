@@ -1,0 +1,72 @@
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  .heading h1 {
+    margin-top: 15px;
+    animation: blink 3s infinite;
+  }
+  h2{
+    text-align: center;
+  }
+  .landingPage{
+    height: 800px;
+    width: 900px;
+    border-radius: 20px;
+  }
+  .mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px auto;
+    width: 70%;
+    background-color: rgb(156, 231, 231);
+    padding: 10px;
+    border-radius: 20px;
+    gap: 12px;
+  }
+  
+  .mainContent {
+    box-shadow: 0 0 10px 5px rgb(156, 38, 38);
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+    padding: 50px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+  }
+  
+  .buttons {
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(204, 171, 188);
+  }
+  
+  .buttons:hover {
+    cursor: pointer;
+    background-color: rgb(247, 56, 56);
+    transform: translateY(-5px);
+    transition: ease 200ms;
+  }

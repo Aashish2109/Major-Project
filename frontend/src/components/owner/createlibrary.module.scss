@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 212, 224);
+  }
+  h1 {
+    text-align: center;
+  }
+  .wholeDiv{
+    width: 60%;
+    margin: 170px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px 5px rgb(90, 63, 63);
+    padding: 5px;
+    background-color:rgb(199, 199, 168);
+    border-radius: 25px;
+  }
+  .createlibraryImage{
+    height: 600px;
+    border-radius: 10px;
+    width: 600px;
+  }
+  .mainContainer{
+    margin-left: 25px;
+    border-radius: 25px;
+  }
+  .formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(188, 157, 216);
+    box-shadow: 0 0 10px 2px rgb(122, 25, 25);
+  }
+  .formContainer .InputField{
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin: 10px 0;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+  }
+  .buttonClass {
+    border: none;
+    width: 60%;
+    background-color: rgb(169, 11, 11);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .buttonClass:hover {
+    background-color: burlywood;
+    cursor: pointer;
+    color: black;
+
+  }
+  .loginButton{
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.692);
+    border:none
+  }
+  .loginButton:hover{
+    cursor: pointer;
+    color: black;
+  }

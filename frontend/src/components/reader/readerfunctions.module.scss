@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 248, 248);
+}
+
+.parentDiv h1 {
+    text-align: center;
+}
+
+.mainReaderDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    background-color: bisque;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+}
+.ReaderFunctionsImage{
+    margin-right: -50px;
+}
+.parentdiv .maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(107, 28, 28, 0.986) ;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.ReaderFunctionsButtons {
+    width: 100%;
+    border-radius: 20px;
+}
+.searchbook, .raisebookrequest, .books{
+    border-bottom: 2px solid black;
+}
+.ReaderFunctionsButtons:hover {
+   background-color: red;
+   transform: translateY(-5px);
+   transition: ease-in-out 500ms;
+}

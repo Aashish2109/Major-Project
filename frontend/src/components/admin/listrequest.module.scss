@@ -1,0 +1,37 @@
+.listrequesttable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.tableheading {
+    border: 2px solid red;
+    padding: 5px;
+    background-color: beige;
+}
+
+.tabledata {
+    border: 2px solid rgb(138, 21, 21);
+    text-align: center;
+    background-color: rgb(192, 192, 148);
+    padding: 5px;
+}
+
+.previousbuttonlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.previousbuttonoflist {
+    width: 100%;
+    background-color: green;
+}
+
+.previousbuttonoflist:hover {
+    background-color: rgb(37, 61, 37);
+    cursor: pointer;
+}

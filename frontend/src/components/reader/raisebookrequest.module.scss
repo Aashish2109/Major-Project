@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+.raiseRequestDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(122, 248, 248);
+    padding: 10px;
+    margin: 250px auto
+}
+.container h1 {
+    text-align: center;
+}
+.formContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+.raiseRequestImage {
+    height: 200px;
+    width: 200px;
+}
+
+.formContainer label {
+    margin-bottom: -8px;
+}
+
+.formContainer .raiserequestinput {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.raiserequestbutton {
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(112, 187, 80);
+    width: 40%;
+}
+.raiserequestbutton:hover {
+    background-color: rgb(92, 1, 1);
+    cursor: pointer;
+    color: white;
+}
+.container .formContainer .RaiseBookRequestbuttons{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.raiserequestpreviousbutton{
+width: 100%;
+background-color: rgb(112, 187, 80);
+}
+
+.raiserequestpreviousbutton:hover{
+    background-color: rgb(92, 1, 1);
+    cursor: pointer;
+    color: white;
+}

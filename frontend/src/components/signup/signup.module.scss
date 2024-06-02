@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 212, 224);
+  }
+  .adminCreate{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: rgb(233, 233, 222);
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 10px;
+  }
+  .adminContainer{
+    background-color: rgb(221, 170, 226);
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .adminContainer .inputField{
+    width: 90%;
+    padding: 10px;
+    margin:10px auto 10px auto;
+  }
+  .SignUpImage{
+   height: 700px;
+   width: 500px;
+   border-radius: 10px;
+  }
+  .buttonClass{
+    width:30%;
+    border-radius: 20px;
+    background-color: rgb(156, 18, 18);
+  }
+  .buttonClass:hover{
+    background-color: green;
+    cursor:pointer;
+    transform: translateY(-5px);
+    transition: ease-in-out 500ms;
+  }

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 212);
+}
+
+.searchBookDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 250px auto;
+    width: 50%;
+    box-shadow: 0 0 5px 5px rgb(133, 15, 15);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.mainContainer h1 {
+    text-align: center;
+}
+
+.formContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px 5px rgb(19, 48, 19);
+    margin: 0 auto;
+    background-color: rgb(135, 235, 218);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.searchBookInput {
+    width: 100%;
+    padding: 1px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.searchbookButtons {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.searchbookbuttonclass {
+    width: 100%;
+    background-color: rgb(177, 50, 194);
+}
+
+.searchbookbuttonclass:hover {
+    cursor: pointer;
+    background-color: rgb(87, 126, 133);
+    color: black;
+}
